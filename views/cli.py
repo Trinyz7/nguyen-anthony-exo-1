@@ -3,7 +3,7 @@ import argparse
 from datetime import date
 from typing import Optional
 
-from controllers.task.controller import TaskController
+from controllers.task_controller import TaskController
 
 def parse_date(s: Optional[str]) -> Optional[date]:
     if not s:
