@@ -1,0 +1,38 @@
+# Env virtuels
+venv/
+.venv/
+
+# Bytecode & caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# IDE / éditeurs
+.vscode/
+.idea/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets / config locale
+.env
+.env.*
+*.local
+
+# Données runtime de ta ToDo CLI
+db.json
