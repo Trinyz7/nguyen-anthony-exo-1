@@ -8,6 +8,7 @@ python main.py done 1                  # marquer terminée
 python main.py remove 1                # supprimer (delete)
 
 ```
+```
 ├─ main.py
 ├─ db.json
 ├─ controllers/
@@ -16,3 +17,4 @@ python main.py remove 1                # supprimer (delete)
 │  └─ task.py
 └─ views/
    └─ cli.py
+```
