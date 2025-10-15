@@ -1,11 +1,19 @@
 # ToDoList
 
-## Utilisation
+## Utilisation et Commandes essentielles
 ```bash
-python main.py add "Acheter du café"   # ajouter
-python main.py list                    # afficher (display)
-python main.py done 1                  # marquer terminée
-python main.py remove 1                # supprimer (delete)
+# Ajouter une tâche
+python main.py add "Acheter du café"
+
+# Afficher les tâches (display)
+python main.py list
+python main.py list -A           # inclure les tâches terminées
+
+# Marquer une tâche comme terminée
+python main.py done 1
+
+# Supprimer une tâche (delete)
+python main.py remove 1
 
 ```
 ```
@@ -18,3 +26,4 @@ python main.py remove 1                # supprimer (delete)
 └─ views/
    └─ cli.py
 ```
+
